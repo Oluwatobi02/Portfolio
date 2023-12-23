@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link';
 import clsx from 'clsx';
 export default function Header() {
+  const [activeSection, setActiveSection] = useState(null)
 
   return 
   (
@@ -32,7 +33,7 @@ export default function Header() {
                     "text-gray-950": activeSection === link.name,
                    })}
                     href={link.hash}
-                      onClick ={() => setActiveSection(link.name)}
+                      // onClick ={() => setActiveSection(link.name)}
                       >
                     {link.name}
                      {
