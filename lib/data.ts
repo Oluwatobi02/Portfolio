@@ -73,7 +73,7 @@ export const projectsData = [
   {
     title: "Teachable",
     description:
-      " Teachable is an innovative student-centric platform designed to revolutionize the way students connect, share knowledge, and enhance their learning experiences. This interactive application provides a unique blend of functionality inspired by popular social apps, creating an engaging and dynamic environment for students seeking to both learn and teach.",
+    " Teachable revolutionizes student connections and knowledge-sharing with a dynamic platform inspired by popular social apps.",
     tags: ["React", "CSS", "Nodejs", "MongoDB"],
     imageUrl: teachableImg,
   },
