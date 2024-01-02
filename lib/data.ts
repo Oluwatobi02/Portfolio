@@ -6,7 +6,7 @@ import weatherpicImg from "@/public/IMG_5624.jpg";
 import teachableImg from "@/public/IMG_5618.jpg"
 import spaceathonImg from "@/public/IMG_5620.jpg"
 import portfoliopictureImg from "@/public/portfoliopicture.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
 
 export const links = [
   {

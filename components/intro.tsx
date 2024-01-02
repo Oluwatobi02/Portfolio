@@ -68,11 +68,13 @@ export default function Intro() {
     font-medium !leading-[1.5] sm:text-2xl"
     initial={{ opacity: 0, y: 100}}
     animate={{ opacity: 1, y: 0 }}>
-    <span className="font-bold">Hello, I'm Oluwatobi.</span> I'm currently pursuing a degree in{" "}
-        <span className="font-bold">Computer Science</span> at{" "}
-        <span className="font-bold">Morgan State University</span>, where my passion lies in
-        building <span className="italic">websites & coding</span>. I specialize in{" "}
-        <span className="font-bold">Software Engineering</span> and enjoy creating innovative software solutions.
+   <span className="font-bold">Hello, I'm Oluwatobi.</span> Welcome to my digital space! Here, you'll find a collection of my projects, glimpses into my coding adventures, and a bit about who I am. I specialize in <span className="font-bold">Software Engineering</span> and enjoy creating innovative software solutions. This portfolio reflects my dedication to learning, coding, and exploring new technologies. Join me on this exciting journey as I navigate the realms of computer science and share my experiences with you!
+
+
+
+
+
+
     </motion.h1>
 
     <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -93,7 +95,7 @@ export default function Intro() {
            px-7 py-3 flex items-center gap-2
         rounded-full outline-none text-black
         focus:scale-110 hover:scale-110 active:scale-105
-        transition cursor-pointer border border-black/10" href='/oluwatobi_olajide_resume.pdf' 
+        transition cursor-pointer border border-black/10" href='/Oluwatobi_Olajide_resume_new.pdf' 
         download>Download Resume<HiDownload 
         className='opacity-60 
         group-hover:translate-y-1 transition'/></a>
