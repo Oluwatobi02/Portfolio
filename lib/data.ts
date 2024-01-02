@@ -2,7 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import weatherpicImg from "@/public/weatherpic.png";
+import weatherpicImg from "@/public/IMG_5624.jpg";
+import teachableImg from "@/public/IMG_5618.jpg"
+import spaceathonImg from "@/public/IMG_5620.jpg"
 import portfoliopictureImg from "@/public/portfoliopicture.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -64,31 +66,32 @@ export const projectsData = [
   {
     title: "Personal Portfolio Website",
     description:
-          "Crafted a robust portfolio website using React.js, Next.js, and TypeScript, highlighting technical prowess and creativity.",
+          " Crafted a robust portfolio website using React.js, Next.js, and TypeScript, highlighting technical prowess and creativity.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: portfoliopictureImg,
   },
   {
+    title: "Teachable",
+    description:
+      " Teachable is an innovative student-centric platform designed to revolutionize the way students connect, share knowledge, and enhance their learning experiences. This interactive application provides a unique blend of functionality inspired by popular social apps, creating an engaging and dynamic environment for students seeking to both learn and teach.",
+    tags: ["React", "CSS", "Nodejs", "MongoDB"],
+    imageUrl: teachableImg,
+  },
+  {
+    title: "Space-A-Thon",
+    description:
+      " Space-A-Thon is an impactful educational web application on space exploration, missions, phenomena, and an interactive quiz section to reinforce learning",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: spaceathonImg,
+  },
+  {
     title: "WEATHER API PROJECT",
     description:
-      "J Engineered a Weather app using JavaScript with an intuitive and user-friendly interface",
-    tags: ["JavaScript", "APIs", "CSS", "HTML"],
+      " Engineered a Weather app using JavaScript with an intuitive and user-friendly interface",
+    tags: ["JavaScript", "OpenWeatherMap API", "CSS", "HTML"],
     imageUrl: weatherpicImg,
   },
-  {
-    title: "TEXT-BASED SLOT MACHINE",
-    description:
-      " Demonstrated expertise in decision-making and building software components.",
-    tags: ["Python", "Data Structures"],
-    imageUrl: wordanalyticsImg,
-  },
-  {
-    title: "TURTLE RACING GAME",
-    description:
-      "Developed an engaging racing game utilizing Python’s Turtle module, allowing users to select from a diverse range of turtles for competitive races",
-    tags: ["Python", "Data Structures", "Object Oriented Programming", "Python Turtle Module"],
-    imageUrl: wordanalyticsImg,
-  }
+
 ] as const;
 
 export const skillsData = [
