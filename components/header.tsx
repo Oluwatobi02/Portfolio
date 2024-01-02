@@ -1,15 +1,20 @@
 "use client";
 
-import React, {useState} from 'react'
+import React from 'react'
 import { links } from '@/lib/data';
 import { motion } from 'framer-motion'
 import Link from 'next/link';
 import clsx from 'clsx';
-export default function Header() {
-  const [activeSection, setActiveSection] = useState(null)
+import { useActiveSectionContext } from '@/context/active-section-context';
 
-  return 
-  (
+export default function Header() {
+
+  const { activeSection, setActiveSection } = useActiveSectionContext();
+
+
+
+  return (
+    
   <header className='z-[999] relative'>
     <motion.div className="fixed top-0 left-1/2 h-[4.5rem] w-full
     rounded-none border border-white border-opacity-40 bg-white
@@ -33,7 +38,7 @@ export default function Header() {
                     "text-gray-950": activeSection === link.name,
                    })}
                     href={link.hash}
-                      // onClick ={() => setActiveSection(link.name)}
+                      onClick ={() => setActiveSection(link.name)}
                       >
                     {link.name}
                      {
